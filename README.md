@@ -1,37 +1,61 @@
-# C 언어 자료구조 · 알고리즘 학습 기록
+<div align="center">
 
-교재 1~14장을 기준으로 학습한 개념, 직접 구현한 C 코드, 연습문제 풀이를 정리합니다.
+# 🌱 C Data Structures
 
-## 학습 현황
+### C언어 자료구조 · 알고리즘 학습 아카이브
 
-> 체크박스는 **자동으로 바뀌지 않습니다.** 완료한 장은 `- [ ]`를 `- [x]`로 고쳐서 커밋하세요.
+문제를 직접 풀고, 코드를 고치고, 구현 경험을 차곡차곡 쌓아가는 공간입니다.
 
-- [ ] [01장. 자료구조와 알고리즘](./Chapter01_Fundamentals/README.md) (3개 소단원, 연습문제 p.36)
-- [ ] [02장. 순환](./Chapter02_Recursion/README.md) (4개 소단원, 연습문제 p.63)
-- [ ] [03장. 배열, 구조체, 포인터](./Chapter03_Arrays_Struct_Pointers/README.md) (6개 소단원, 연습문제 p.98)
-- [ ] [04장. 스택](./Chapter04_Stack/README.md) (6개 소단원, 연습문제 p.142)
-- [ ] [05장. 큐](./Chapter05_Queue/README.md) (6개 소단원, 연습문제 p.171)
-- [ ] [06장. 연결 리스트 I](./Chapter06_Linked_List_I/README.md) (6개 소단원, 연습문제 p.216)
-- [ ] [07장. 연결 리스트 II](./Chapter07_Linked_List_II/README.md) (6개 소단원, 연습문제 p.250)
-- [ ] [08장. 트리](./Chapter08_Tree/README.md) (12개 소단원, 연습문제 p.316)
-- [ ] [09장. 우선순위 큐](./Chapter09_Priority_Queue/README.md) (7개 소단원, 연습문제 p.356)
-- [ ] [10장. 그래프 I](./Chapter10_Graph_I/README.md) (6개 소단원, 연습문제 p.392)
-- [ ] [11장. 그래프 II](./Chapter11_Graph_II/README.md) (7개 소단원, 연습문제 p.438)
-- [ ] [12장. 정렬](./Chapter12_Sorting/README.md) (11개 소단원, 연습문제 p.490)
-- [ ] [13장. 탐색](./Chapter13_Search/README.md) (7개 소단원, 연습문제 p.531)
-- [ ] [14장. 해싱](./Chapter14_Hashing/README.md) (8개 소단원, 연습문제 p.569)
+![Language](https://img.shields.io/badge/Language-C-238636?style=for-the-badge&logo=c&logoColor=white)
+![Chapters](https://img.shields.io/badge/Textbook-14%20Chapters-2ea44f?style=for-the-badge)
+![Learning](https://img.shields.io/badge/Status-Learning-3fb950?style=for-the-badge)
 
-## 폴더 사용법
+</div>
 
-- 각 장의 `README.md`: 교재 소단원별 학습 체크리스트(시작 페이지 포함)
-- 각 장의 `Exercises/`: 직접 작성한 연습문제 `.c` 파일을 넣는 곳
-- 각 장의 `Notes/`: 이해한 개념이나 오류 해결 기록을 적는 곳
-- `목차.md`: 교재 전체 목차와 페이지 확인
+---
 
-## 공부 기록을 남기는 방법
+## 📚 교재 목차
 
-1. VS Code에서 `Chapter12_Sorting/Exercises/exercise_08.c`처럼 파일을 만들고 풀이를 저장합니다.
-2. 각 장 `README.md`에서 공부 완료 항목을 체크합니다.
-3. GitHub Desktop에서 **Commit to main → Push origin**으로 업로드합니다.
+각 장을 클릭하면 해당 장의 학습 폴더로 이동합니다. 코드 파일을 추가하면 별도로 체크하지 않아도 폴더에서 바로 확인할 수 있습니다.
 
-> 이 폴더에는 교재 원문이나 정답 코드가 들어 있지 않습니다. 목차와 관리용 파일만 생성했습니다.
+| 기초 · 선형 자료구조 | 트리 · 그래프 · 알고리즘 |
+|:---|:---|
+| [01. 자료구조와 알고리즘](./Chapter01_Fundamentals/) | [08. 트리](./Chapter08_Tree/) |
+| [02. 순환](./Chapter02_Recursion/) | [09. 우선순위 큐](./Chapter09_Priority_Queue/) |
+| [03. 배열, 구조체, 포인터](./Chapter03_Arrays_Struct_Pointers/) | [10. 그래프 I](./Chapter10_Graph_I/) |
+| [04. 스택](./Chapter04_Stack/) | [11. 그래프 II](./Chapter11_Graph_II/) |
+| [05. 큐](./Chapter05_Queue/) | [12. 정렬](./Chapter12_Sorting/) |
+| [06. 연결 리스트 I](./Chapter06_Linked_List_I/) | [13. 탐색](./Chapter13_Search/) |
+| [07. 연결 리스트 II](./Chapter07_Linked_List_II/) | [14. 해싱](./Chapter14_Hashing/) |
+
+> 📖 [교재 전체 목차 · 페이지별 정리](./목차.md)
+
+## 💻 공부 코드 모아보기
+
+| 종류 | 저장 위치 | 예시 |
+|:---|:---|:---|
+| 연습문제 풀이 | 각 장의 `Exercises/` | `Chapter12_Sorting/Exercises/exercise_07.c` |
+| 개념 · 오류 메모 | 각 장의 `Notes/` | 원리, 실수한 부분, 수정 이유 |
+| 장별 정리 | 각 장의 `README.md` | 해당 장 소단원 안내 |
+
+### 🔎 자주 보는 장
+
+[![Sorting](https://img.shields.io/badge/12장-정렬-238636?style=flat-square)](./Chapter12_Sorting/Exercises/)
+[![Tree](https://img.shields.io/badge/08장-트리-238636?style=flat-square)](./Chapter08_Tree/Exercises/)
+[![Graph](https://img.shields.io/badge/10--11장-그래프-238636?style=flat-square)](./Chapter10_Graph_I/Exercises/)
+[![Linked List](https://img.shields.io/badge/06--07장-연결%20리스트-238636?style=flat-square)](./Chapter06_Linked_List_I/Exercises/)
+
+## 🌿 학습 기록을 쌓는 방식
+
+**VS Code에서 `.c` 파일 저장 → GitHub Desktop에서 Commit → Push**
+
+- 커밋할 때 `퀵 정렬 구현`, `BST 삭제 오류 수정`처럼 작업 내용을 제목으로 남깁니다.
+- GitHub의 **History**에서 예전 코드와 수정 내역을 확인할 수 있습니다.
+- GitHub 프로필의 **초록색 잔디 그래프**는 집계 조건에 맞는 커밋 활동에 따라 자동으로 채워집니다.
+- 이 README에는 **수동 체크리스트나 임의의 진도율을 넣지 않았습니다.** 폴더 속 실제 코드가 공부 기록입니다.
+
+<div align="center">
+
+**작은 구현도 하나씩 쌓이면 실력이 됩니다. 🌱**
+
+</div>
