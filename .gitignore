@@ -1,0 +1,18 @@
+# C / C++ 컴파일 결과물
+*.exe
+*.o
+*.obj
+*.out
+*.a
+*.dll
+*.pdb
+*.ilk
+
+# 빌드 폴더
+build/
+Debug/
+Release/
+
+# 운영체제 임시 파일
+Thumbs.db
+.DS_Store
